@@ -2,7 +2,7 @@ class BankAccount
 
 attr_reader :name
 attr_accessor :balance, :status
-attr_accessor :valid, :withdraw, :deposit
+attr_accessor :valid, :deposit
 
 
 def initialize(name)
